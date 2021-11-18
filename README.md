@@ -18,19 +18,19 @@ Steps and tasks:
 
 * Import the libraries, load dataset, the print shape of data, data description. 
 Understand of data columns: 
-a. Drop all other columns except “text” and “airline_sentiment”.
-b. Check the shape of the data.
-c. Print the first 5 rows of data.
+** a. Drop all other columns except “text” and “airline_sentiment”.
+** b. Check the shape of the data.
+** print the first 5 rows of data.
 * Text pre-processing: Data preparation. 
-NOTE:- Each text pre-processing step should be mentioned in the notebook separately.
-a. Html tag removal.
-b. Tokenization.
-c. Remove the numbers
-d. Removal of Special Characters and Punctuations.
-e. Removal of stopwords
-f. Conversion to lowercase.
-g. Lemmatize or stemming.
-h. Join the words in the list to convert back to text string in the data frame. (So that each row contains the data in text format.)
+** NOTE:- Each text pre-processing step should be mentioned in the notebook separately.
+** a. Html tag removal.
+** b. Tokenization.
+** c. Remove the numbers
+** d. Removal of Special Characters and Punctuations.
+** e. Removal of stopwords
+** f. Conversion to lowercase.
+** g. Lemmatize or stemming.
+** h. Join the words in the list to convert back to text string in the data frame. (So that each row contains the data in text format.)
 i. Print the first 5 rows of data after pre-processing.
 Vectorization: 
 a. Use CountVectorizer.
