@@ -1,4 +1,4 @@
-# NLP-Twitter_Airline_Sentiment_Analysis
+# Natural Language Processing -Twitter Airline Sentiment Analysis
 
 Context
 Background and Context:
@@ -16,12 +16,12 @@ A sentiment analysis job about the problems of each major U.S. airline. Twitter 
 High Level Steps to be Followed
 Steps and tasks:
 
-Import the libraries, load dataset, the print shape of data, data description. 
+* Import the libraries, load dataset, the print shape of data, data description. 
 Understand of data columns: 
 a. Drop all other columns except “text” and “airline_sentiment”.
 b. Check the shape of the data.
 c. Print the first 5 rows of data.
-Text pre-processing: Data preparation. 
+* Text pre-processing: Data preparation. 
 NOTE:- Each text pre-processing step should be mentioned in the notebook separately.
 a. Html tag removal.
 b. Tokenization.
